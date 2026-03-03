@@ -12,6 +12,12 @@ const games = [
     name: "Rock Paper Scissors",
     path: "/games/rock-paper-scissors",
     description: "Play against computer and track your score",
+  },
+  {
+    id: 3,
+    name: "Snake Game",
+    path: "/games/snake",
+    description: "Classic snake with increasing speed challenge",
   }
 ];
 

@@ -2,7 +2,12 @@
 
 A modern React + Vite + TypeScript gaming dashboard featuring multiple classic games with a clean glassmorphism UI design.
 
-Built using:
+🌍 Live Demo
+
+🚀 Project is Live At:
+👉 https://react-web-games.netlify.app/
+
+🛠 Built Using
 
 ⚛️ React
 
@@ -82,8 +87,8 @@ src/
 └── main.tsx
 🛠 Installation & Setup
 1️⃣ Clone Repository
-git clone <your-repo-url>
-cd <project-folder>
+git clone https://github.com/Renish25/my-game.git
+cd my-game
 2️⃣ Install Dependencies
 npm install
 3️⃣ Start Development Server
@@ -105,6 +110,12 @@ Device	Controls
 🌟 Future Improvements
 
 High Score system with localStorage
+
+Sound effects
+
+Leaderboard system
+
+PWA support
 
 👨‍💻 Author
 
