@@ -6,6 +6,12 @@ const games = [
     name: "Tic Tac Toe",
     path: "/games/tic-tac-toe",
     description: "Classic 2 Player Tic Tac Toe Game",
+  },
+  {
+    id: 2,
+    name: "Rock Paper Scissors",
+    path: "/games/rock-paper-scissors",
+    description: "Play against computer and track your score",
   }
 ];
 

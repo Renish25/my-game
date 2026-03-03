@@ -1,73 +1,113 @@
-# React + TypeScript + Vite
+🎮 Game Collection App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React + Vite + TypeScript gaming dashboard featuring multiple classic games with a clean glassmorphism UI design.
 
-Currently, two official plugins are available:
+Built using:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⚛️ React
 
-## React Compiler
+⚡ Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🟦 TypeScript
 
-## Expanding the ESLint configuration
+🎨 Tailwind CSS
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+🔀 React Router
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+🚀 Live Features
+🎲 Games Included
+1️⃣ Tic Tac Toe
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Single Player (AI – Easy & Hard mode using Minimax)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Two Player mode
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Winner & Draw detection
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+LocalStorage support for mode & difficulty
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+2️⃣ Rock Paper Scissors
+
+Play vs Computer
+
+Emoji-based UI
+
+Score tracking (Win / Loss / Draw)
+
+Clean animated buttons
+
+3️⃣ Snake Game
+
+Arrow key controls (PC/Laptop)
+
+Swipe controls (Mobile)
+
+On-screen arrow buttons (Mobile)
+
+Food spawning system
+
+Score tracking
+
+Speed increases as score increases
+
+Wall & self collision detection
+
+🎨 UI Design
+
+Indigo → Purple gradient background
+
+Glassmorphism card layout
+
+Responsive design
+
+Mobile friendly
+
+Smooth hover animations
+
+Modern gaming dashboard style
+
+📁 Project Structure
+src/
+│
+├── pages/
+│   ├── Home.tsx
+│   ├── TicTacToe.tsx
+│   ├── RockPaperScissors.tsx
+│   └── SnakeGame.tsx
+│
+├── routes/
+│   └── AppRouter.tsx
+│
+├── App.tsx
+└── main.tsx
+🛠 Installation & Setup
+1️⃣ Clone Repository
+git clone <your-repo-url>
+cd <project-folder>
+2️⃣ Install Dependencies
+npm install
+3️⃣ Start Development Server
+npm run dev
+
+App will run on:
+
+http://localhost:5173
+📦 Build for Production
+npm run build
+
+To preview production build:
+
+npm run preview
+📱 Device Support
+Device	Controls
+💻 PC / Laptop	Keyboard (Arrow Keys)
+📱 Mobile	Swipe Gestures + On-screen Controls
+🌟 Future Improvements
+
+High Score system with localStorage
+
+👨‍💻 Author
+
+Renish Kalariya
+
+Built to showcase frontend development skills using modern React stack.
